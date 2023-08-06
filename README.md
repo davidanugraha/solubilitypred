@@ -39,7 +39,7 @@ After successful pip installation, a command line tool will be installed.
 To generate the predictions for SMILES provided in `input_smiles.csv` and store them into `my_output.csv`, you can do:
 
 ```bash
-solubilitypred input_smiles.csv my_output.csv
+solubilitypred --input=input_smiles.csv --output=my_output.csv
 ```
 
 You can see all of the options available for the command line tool:
