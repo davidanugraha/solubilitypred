@@ -36,7 +36,7 @@ Simply do `pip install .` in the same directory as `setup.py`
 ### Command line tool
 
 After successful pip installation, a command line tool will be installed.
-To generate the predictions for SMILES provided in `input_smiles.csv` and store them into `my_output.csv`, you can do:
+As an example, in order to generate the predictions for SMILES provided in `input_smiles.csv` and store them into `my_output.csv`, you can do:
 
 ```bash
 solubilitypred --input=input_smiles.csv --output=my_output.csv
