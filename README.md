@@ -13,6 +13,8 @@ For more detailed information on how the dataset and each model were explored, p
 - Numpy 1.21.6+
 - Pandas 1.3.5+
 - Joblib 1.2.0+
+- Scikit-Learn 1.0.2
+- XGBoost 1.6.2
 
 #### Optional: for Jupyter notebook
 - Jupyter_client 7.4.9+
@@ -21,11 +23,9 @@ For more detailed information on how the dataset and each model were explored, p
 - Matplotlib 3.5.3+
 - Seaborn 0.12.2+
 - Opendatasets 0.1.22+
-- TensorFlow 2.11.0+
-- Keras 2.11.0+
-- Scikit-Learn 1.0.2+
+- TensorFlow 2.11.0
+- Keras 2.11.0
 - Scipy 1.4.1+
-- XGBoost 1.6.2+
 
 ## Installation
 

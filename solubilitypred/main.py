@@ -54,8 +54,8 @@ def _parse_args():
                         help="Path to the file containing the SMILES. Assumes the content is 1 SMILE per line. Accepts CSV or TXT format.")
     parser.add_argument("--output",
                         type=str,
-                        default=os.path.join(DIR_PATH, "output.csv"),
-                        help="Name of the output file. Defaults to output.csv. Accepts CSV or TXT format. Note this will overwrite the content of the output file.")
+                        default="output.csv",
+                        help="Name of the output file. Defaults to output.csv in current directory. Accepts CSV or TXT format. Note this will overwrite the content of the output file.")
     parser.add_argument('--cpus',
                         default=multiprocessing.cpu_count(),
                         type=int,
