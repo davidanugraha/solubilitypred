@@ -36,11 +36,6 @@ Simply do `pip install .` in the same directory as `setup.py`
 ### Command line tool
 
 After successful pip installation, a command line tool will be installed.
-As an example, in order to generate the predictions for SMILES provided in `input_smiles.csv` and store them into `my_output.csv`, you can do:
-
-```bash
-solubilitypred --input=input_smiles.csv --output=my_output.csv
-```
 
 You can see all of the options available for the command line tool:
 
@@ -56,6 +51,12 @@ optional arguments:
   -h, --help           show this help message and exit
   --output OUTPUT      Name of the output file. Defaults to output.csv. Accepts CSV or TXT format. Note this will overwrite the content of the output file.
   --cpus CPUS          Number of CPU cores to be used. Defaults to use all available cores. Must be between 1 and the number of available CPU cores.
+```
+
+As an example, in order to generate the predictions for SMILES provided in `input_smiles.csv` and store them into `my_output.csv`, you can do:
+
+```bash
+solubilitypred --input=input_smiles.csv --output=my_output.csv
 ```
 
 ### In a Python environment
